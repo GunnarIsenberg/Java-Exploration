@@ -1,7 +1,8 @@
+import java.net.InetAddress;
 import java.util.Scanner;
 
-public class Main{
-    public static void main(String[] args){
+public class Main {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         String firstName = getItemFromConsole("First Name", sc);
@@ -14,7 +15,7 @@ public class Main{
         sc.close();
     }
 
-    public static String getItemFromConsole(String wanted, Scanner reader){
+    public static String getItemFromConsole(String wanted, Scanner reader) {
 
         System.out.println("Please enter your " + wanted + "");
 
@@ -24,12 +25,16 @@ public class Main{
         return toReturn;
     }
 
-    public static void printSeveralNumbers(int countTo){
+    public static void printSeveralNumbers(int countTo) {
         int index = 0;
-        for(int x = 0; x < countTo; x += 1){
+        for (int x = 0; x < countTo; x += 1) {
             index++;
             System.out.println(index);
         }
+    }
+
+    public static void ping(String ip) {
+
     }
 
 }
