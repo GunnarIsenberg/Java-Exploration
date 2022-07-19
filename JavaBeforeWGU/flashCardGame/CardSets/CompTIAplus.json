@@ -1,0 +1,9 @@
+{
+    "key" : "value",
+    "key2" : "value2",
+    "key3" : "value3",
+    "arrayKey" : [1, 2, 3, 4, 5, 6],
+    "friends" : 
+    [   {"nested object" : "nested value"}, 
+        {"nested object2" : "nested value2"}    ]
+}
